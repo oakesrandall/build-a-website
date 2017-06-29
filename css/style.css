@@ -1,0 +1,25 @@
+* {
+    background-color: lightgray;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navigationLinks {
+    /*align-content: center;*/
+}
+
+.navigationLinks h3{
+    display: inline;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+}
+
+footer a {
+    display: inline;
+    text-decoration: none;
+}
