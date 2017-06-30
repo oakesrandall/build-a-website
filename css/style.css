@@ -4,19 +4,62 @@
 }
 
 .navigationLinks {
-    /*align-content: center;*/
+    text-align: center;
 }
 
-.navigationLinks h3{
+.navigationLinks h3 {
     display: inline;
     text-align: center;
     margin: 0 auto;
+}
+
+.mainContent {
+    display: inline-block;
+    width: 45%;
 }
 
 header h1 {
     margin: 0 auto;
     text-align: center;
     font-size: 60px;
+}
+
+.contentText {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    padding: 5px 5px 5px 30px;
+}
+
+.bioPic {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    padding: 5px 10px;
+}
+
+header {
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+}
+.screenshot {
+    height: 250px;
+    width: 50%;
+    /*float: left;*/
+}
+.portfolio {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    border-top: 1px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 10px;
 }
 
 footer a {
